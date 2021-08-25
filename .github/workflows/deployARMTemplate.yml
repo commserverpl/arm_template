@@ -2,10 +2,10 @@
 
 
 
-on:
-  push:
-    branches:
-      - master
+on: [push]
+  #push:
+  #  branches:
+   #   - master
       
 name: Deploy ARM Template
 
