@@ -1,4 +1,4 @@
-    name: Deploy ARM Template
+#    name: Deploy ARM Template
 
 on:
   push:
@@ -26,4 +26,4 @@ jobs:
           scope: resourcegroup
           subscriptionId: ${{ env.AZURE_SUBSCRIPTION_ID }}
           resourceGroupName: ${{ env.AZURE_RESOURCE_GROUP }}
-          template: ./azuredeploy.json
+          template: $GITHUB_WORKSPACE/azuredeploy.json
