@@ -28,4 +28,4 @@ jobs:
           #scope: resourcegroup
           subscriptionId: ${{ env.AZURE_SUBSCRIPTION_ID }}
           resourceGroupName: ${{ env.AZURE_RESOURCE_GROUP }}
-          template: azuredeploy.json
+          template: https://github.com/commserverpl/arm_template/blob/433318025fc6e48f2b625129ab3910a3c2e92f37/azuredeploy.json
