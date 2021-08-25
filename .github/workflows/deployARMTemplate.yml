@@ -5,7 +5,7 @@ on:
     branches:
       - master
       
-name: Deploy ARM Template
+#name: Deploy ARM Template
 env:
   AZURE_SUBSCRIPTION_ID: a45503b1-d5bc-4366-ae9a-efd53255aa54  # set this to your Azure Subscription Id
   AZURE_RESOURCE_GROUP: GitHubActionExercise-rg   # set this to your target resource group
